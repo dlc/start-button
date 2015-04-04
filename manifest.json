@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Darren's Start Widget",
+  "description": "This extension provides quick access to my commonly used sites",
+  "version": "1.0",
+  "author": "Darren Chamberlain <dlc@sevenroot.org>",
+  "homepage_url": "https://github.com/dlc/start-extension/",
+
+  "browser_action": {
+    "default_icon": "dlc.ico",
+    "default_popup": "popup.html",
+    "default_title": "Start Pages"
+  }
+}
