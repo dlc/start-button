@@ -5,24 +5,68 @@
     <style>
       body {
         font-family: sans-serif;
-        font-size: 100%;
+        font-size: small;
         width: 300px;
         text-align: right;
+        line-height: 150%;
+        background: #eee;
       }
+
+      a {
+        color: blue;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        border-bottom: 1px solid blue;
+      }
+
+      .ver {
+        line-height: 80%;
+        font-size: x-small;
+        font-style: italic;
+      }
+
+      .ver a {
+        font-weight: normal;
+      }
+
+      .ver a:hover {
+        border-bottom: none;
+      }
+
     </style>
   </head>
   <body>
     <div><a href="http://www.amazon.com/gp/dmusic/mp3/player/ref=nav_youraccount_cldplyr" target="_blank">Amazon Cloud Player</a></div>
     <div><a href="https://www.amazon.com/gp/video/watchlist/ref=dv_web_wtls_nr_bar_sb_az?show=all&amp;sort=TITLE_ASC" target="_blank">Amazon Instant Video</a></div>
-    <div><a href="http://metro.kingcounty.gov/schedules/" target="_blank">Seattle bus schedules</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:98103.1.99999" target="_blank">Weather for Seattle</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:33547.1.99999" target="_blank">Weather for Lithia</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:06424.1.99999" target="_blank">Weather for East Hampton</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:01050.1.99999" target="_blank">Weather for Huntington</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:02125.1.99999" target="_blank">Weather for The Boston Globe</a></div>
-    <div><a href="http://www.wunderground.com/weather-forecast/zmw:80901.1.99999" target="_blank">Weather for Colorado Springs</a></div>
     <div><a href="http://www.azcert.org/medical-pros/drug-lists/list-03.cfm?sort=Brand_name" target="_blank">QT Drug List</a></div>
 
+    <div>
+      <a href="http://metro.kingcounty.gov/schedules/" target="_blank">Seattle bus schedules</a>: 
+      <a href="http://metro.kingcounty.gov/schedules/674/" target="_blank">D</a>,
+      <a href="http://metro.kingcounty.gov/schedules/013/" target="_blank">13</a>,
+      <a href="http://metro.kingcounty.gov/schedules/029/" target="_blank">29</a>,
+      <a href="http://metro.kingcounty.gov/schedules/031/" target="_blank">31</a>,
+      <a href="http://metro.kingcounty.gov/schedules/040/" target="_blank">40</a>,
+    </div>
+
+    <hr/>
+
+    <div>Weather for
+      <a href="http://www.wunderground.com/weather-forecast/zmw:98103.1.99999" target="_blank">Seattle</a>, 
+      <a href="http://www.wunderground.com/weather-forecast/zmw:33547.1.99999" target="_blank">Lithia</a>, 
+      <a href="http://www.wunderground.com/weather-forecast/zmw:06424.1.99999" target="_blank">East Hampton</a>, 
+      <a href="http://www.wunderground.com/weather-forecast/zmw:01050.1.99999" target="_blank">Huntington</a>, 
+      <a href="http://www.wunderground.com/weather-forecast/zmw:02125.1.99999" target="_blank">The Boston Globe</a>, 
+      <a href="http://www.wunderground.com/weather-forecast/zmw:80901.1.99999" target="_blank">Colorado Springs</a>
+    </div>
+
+    <hr/>
+    <div class="ver">
+      <p><a href="https://github.com/dlc/start-button" target="_blank">Start Button v1.0</a><!--Darren Chamberlain--></p>
+    </div>
 
   </body>
 </html>
