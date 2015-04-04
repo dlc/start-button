@@ -5,7 +5,7 @@
   "description": "This extension provides quick access to my commonly used sites",
   "version": "1.0",
   "author": "Darren Chamberlain <dlc@sevenroot.org>",
-  "homepage_url": "https://github.com/dlc/start-extension/",
+  "homepage_url": "https://github.com/dlc/start-button/",
 
   "browser_action": {
     "default_icon": "dlc.png",
