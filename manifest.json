@@ -6,6 +6,10 @@
   "version": "1.0",
   "author": "Darren Chamberlain <dlc@sevenroot.org>",
   "homepage_url": "https://github.com/dlc/start-button/",
+  "permissions": [ "contextMenus" ],
+  "background": {
+    "scripts": [ "contextMenu.js" ]
+  },
 
   "browser_action": {
     "default_icon": "dlc.png",
