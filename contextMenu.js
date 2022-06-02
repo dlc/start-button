@@ -25,22 +25,32 @@ var SITES = [
     'url': 'http://smile.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&x=0&y=0&tag=dlc-20&field-keywords=',
   },
 
+  {
+    'title': 'Twitter',
+    'url': 'https://twitter.com/',
+  },
+
+  {
+    'title': 'Instagam',
+    'url': 'https://instagram.com/',
+  },
+
 ];
 
 /* D&D specific searches */
 var DND = [
   {
-    'title': "Magic items",
+    'title': "5e: Magic items",
     'url': 'https://www.dndbeyond.com/magic-items?filter-search=',
   },
 
   {
-    'title': "Monsters",
+    'title': "5e: Monsters",
     'url': 'https://www.dndbeyond.com/monsters?filter-search=',
   },
 
   {
-    'title': "Spells",
+    'title': "5e: Spells",
     'url': 'https://www.dndbeyond.com/spells?filter-search=',
   },
 
