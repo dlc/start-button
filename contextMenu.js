@@ -15,6 +15,12 @@ var SITES = [
     'title': 'Google Image search',
     'url': 'https://www.google.com/search?newwindow=1&safe=off&tbm=isch&q='
   },
+
+  {
+    'title': 'Google Maps search',
+    'url': 'https://www.google.com/maps/search/'
+  },
+
   {
     'title': 'IMDB',
     'url': 'http://www.imdb.com/find?s=all&q=',
