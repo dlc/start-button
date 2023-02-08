@@ -37,10 +37,9 @@ var SITES = [
   },
 
   {
-    'title': 'Instagam',
-    'url': 'https://instagram.com/',
-  },
-
+    'title': 'DriveThru RPG',
+    'url': 'https://www.drivethrurpg.com/browse.php?keywords=',
+  }
 ];
 
 /* D&D specific searches */
