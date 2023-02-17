@@ -43,7 +43,7 @@ var SITES = [
 ];
 
 /* D&D specific searches */
-var DND = [
+var rpg = [
   {
     'title': "5e: Magic items",
     'url': 'https://www.dndbeyond.com/magic-items?filter-search=',
@@ -59,6 +59,15 @@ var DND = [
     'url': 'https://www.dndbeyond.com/spells?filter-search=',
   },
 
+  {
+    'title': "Pathfinder: SRD",
+    'url': 'https://2e.aonprd.com/Search.aspx?q=',
+  },
+
+  {
+    'title': "Pathfinder: Wiki",
+    'url': 'https://pathfinderwiki.com/wiki/',
+  },
 ];
 
 var parent_menu = chrome.contextMenus.create({
@@ -97,7 +106,7 @@ chrome.contextMenus.create({
   'contexts': ['selection']
 });
 
-DND.forEach(function(site) {
+rpg.forEach(function(site) {
   chrome.contextMenus.create({
       'title': ' - ' + site.title,
       'parentId': parent_menu,
