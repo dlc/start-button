@@ -39,7 +39,12 @@ var SITES = [
   {
     'title': 'DriveThru RPG',
     'url': 'https://www.drivethrurpg.com/browse.php?keywords=',
-  }
+  },
+
+  {
+    'title': 'Lego',
+    'url': 'https://www.lego.com/en-us/product/',
+  },
 ];
 
 /* D&D specific searches */
